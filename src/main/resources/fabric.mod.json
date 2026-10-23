@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "newmobs",
+  "version": "${version}",
+  "name": "New Mobs",
+  "description": "เพิ่มมอนสเตอร์และสัตว์ใหม่: Stone Brute (มอนสเตอร์หินตัวใหญ่) และ Moss Hopper (สัตว์กระโดดน่ารักปกคลุมด้วยตะไคร่)",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.newmobs.NewMobs"],
+    "client": ["com.example.newmobs.client.NewMobsClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
